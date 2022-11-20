@@ -107,12 +107,12 @@ public static void main(String[] args)
 	
 //2. Array-->
 	
-		int o[] = {1,2,3,4,5};
-		System.out.println(o);
+//		int o[] = {1,2,3,4,5};
+//		System.out.println(o);
 //We can write multiple numbers in a array.
 //using int datatype.
 	
-		study array concept then come here back..
+//		study array concept then come here back..
 	
 	
 	
