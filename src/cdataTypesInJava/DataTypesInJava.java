@@ -1,4 +1,4 @@
-package dataTypesInJava;
+package cdataTypesInJava;
 
 public class DataTypesInJava 
 {
@@ -134,7 +134,7 @@ public static void main(String[] args)
 //		{
 //			System.out.println(b(i));
 //		}
-//This is also valid. but condition is info inside { } this
+//This is also valid. but condition is- info. inside { } this
 //bracket should be of same dataType.
 //=================================================================
 	 

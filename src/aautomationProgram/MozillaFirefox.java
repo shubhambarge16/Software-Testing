@@ -1,4 +1,4 @@
-package automationProgram;
+package aautomationProgram;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;

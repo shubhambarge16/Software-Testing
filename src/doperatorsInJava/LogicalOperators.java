@@ -1,4 +1,4 @@
-package operatorsInJava;
+package doperatorsInJava;
 
 public class LogicalOperators 
 {

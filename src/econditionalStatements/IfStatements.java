@@ -1,4 +1,4 @@
-package loopingStatements;
+package econditionalStatements;
 
 public class IfStatements 
 {
