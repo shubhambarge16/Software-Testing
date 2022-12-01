@@ -107,7 +107,7 @@ public static void main(String[] args)
 //		String emailid = "shubham.barge16@gmail.com";
 //		System.out.println(emailid);
 //We can write all the characters of keyboard
-//in String Datatype.
+//in String Datatype.but double inverted comma->" "is compulsory.
 //--------------------------------------------------------	
 	
 //2. Array-->

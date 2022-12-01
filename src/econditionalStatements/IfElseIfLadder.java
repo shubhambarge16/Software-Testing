@@ -86,61 +86,60 @@ public static void main(String[] args)
 //================================================
 	//Standard way of writing program of Grades is-->
 	//eg-
+//Use OR Uncomment anyone of these below marks of 1 student & check
+//the Grade given to student.
 //		int Marks= 98;	//OR
 // 	    int Marks= 87;	//OR
 //		int Marks= 76;	//OR
 		int Marks= 60;	//OR
-// 		int Marks= 57;	//OR
+//		int Marks= 54;	//OR
 //		int Marks= 43;	//OR
 //		int Marks= 37;
-//Use anyone of these above marks & check the
-//Grade given to student.
- 		
-		if(Marks>=90&&Marks<=100)
-		{
-			System.out.println("A grade");
-		}
-		else if(Marks>=80&&Marks<90)
-		{
-			System.out.println("B Grade");
-		}
-		else if(Marks>=70&&Marks<80)
-		{
-			System.out.println("C Grade");
-		}
-		else if(Marks>=60&&Marks<70)
-		{
-			System.out.println("D Grade");
-		}
-		else if(Marks>=50&&Marks<60)
-		{
-			System.out.println("E Grade");
-		}
-		else if(Marks>=40&&Marks<50)
-		{
-			System.out.println("F Grade");
-		}
-		else
-		{
-			System.out.println("Student is failed");
-		}
-		System.out.println("end of program");
-//jr konti pn value >= sign chya pudhe asel tr
+//read the below condition as "Marks should be less than or equal to
+//100 && Marks should be greater than 90
+		
+ 	if(Marks<=100&&Marks>90)
+ 	{
+ 		System.out.println("A Grade");
+ 	}
+ 	else if(Marks<=90&&Marks>80)
+ 	{
+ 		System.out.println("B Grade");
+ 	}
+ 	else if(Marks<=80&&Marks>70)
+ 	{
+ 		System.out.println("C Grade");
+ 	}
+ 	else if(Marks<=70&&Marks>60)
+ 	{
+ 		System.out.println("D Grade");
+ 	}
+ 	else if(Marks<=60&&Marks>50)
+ 	{
+ 		System.out.println("E Grade");
+ 	}
+ 	else if(Marks<=50&&Marks>40) 
+ 	{
+ 		System.out.println("F Grade");
+ 	}
+ 	else
+ 	{
+ 		System.out.println("Student is failed");
+ 	}
+	System.out.println("end of program");
+	
+//jr konti pn value <= sign chya pudhe asel tr
 //ti tyach block madhe consider keli janar.
-//eg >=60-->it will run in D grade block.
+//eg <=60-->it will run in E grade block.
+	
 //==========================================================		
 
-//In this statement, we can check condition for
+//CONCLUSION-->
+//1) In this statement, we can check conditions for
 //1 variable & 1 value at a time only.
 		
-//& we can use multiple "else-if" conditions in a program.
-//but just for one variable only. eg. int marks= 56;
-		
-		
-		
-		
-		
-		
-		
+//2) & we can use multiple "else-if" conditions in single program.
+//but just for one variable only. eg. int marks= 76;
+			
 }
 }

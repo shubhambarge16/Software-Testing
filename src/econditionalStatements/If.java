@@ -1,6 +1,6 @@
 package econditionalStatements;
 
-public class IfStatements 
+public class If 
 {
 public static void main(String[] args) 
 {
