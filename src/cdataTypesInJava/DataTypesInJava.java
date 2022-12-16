@@ -78,7 +78,7 @@ public static void main(String[] args)
 	
 //		double d = 0.12345678910111213D;
 //		System.out.println(d);
-//results provide 13-14 digits after the decimel point.
+//results provide 13 to 14 digits after the decimal point.
 //F or f should be attached with value of float datatype.
 	
 //Attaching D or d is not mandatory in double datatype.

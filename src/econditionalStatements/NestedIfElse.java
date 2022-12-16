@@ -67,7 +67,8 @@ public static void main(String[] args)
 		System.out.println("Not allowed for blood donation");
 	}
 	System.out.println("End of Program");
-//----------------------------------------------------------------------------
+	
+//===========================================================================
 
 //Q-2-WAP to check eligibility of a person to enter in mall.
 	
@@ -113,34 +114,6 @@ public static void main(String[] args)
 	}
 	
 	System.out.println("End of Program");
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+		
 }
 }
