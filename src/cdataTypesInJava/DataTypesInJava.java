@@ -67,36 +67,44 @@ public static void main(String[] args)
 //SO WE OFTEN DID'NT USE IT.
 //-------------------------------------------------	
 	
-//5.FLOAT/DOUBLE-->	
+//5.FLOAT / DOUBLE-->	
 	
-//		float f = 0.7588141506F;
-//		System.out.println(f);	
-//		
-//		double percentage= 76.45;
-//		System.out.println(percentage);
-//We can write percentage value only in "double" datatype.
-	
-//		double d = 0.12345678910111213D;
-//		System.out.println(d);
-//results provide 13 to 14 digits after the decimal point.
-//F or f should be attached with value of float datatype.
-	
-//Attaching D or d is not mandatory in double datatype.
-//float/double datatype shows only 8 digits after decimel point.
+//Adding F or f is mandatory with value of float datatype.
+//Adding D or d is not mandatory with value of double datatype.
+//In float, we can write only 4 to 5 digits after decimal point.
+//In double, we can write 13 to 14 digits after decimal point.
+//for writing percentage value, we use float & double datatype.
+//& for writing normal value, we use int datatype.
+		
+//Difference betn 'float' & 'double'-->
+//1.float has size of 32 bits so it has limited range of inserting values.
+//2.double has size of 64 bits so it has wide range of inserting values as compared to float.
+		
+//Eg-1		
+//		float b= 45.12345f;		//correct shows upto 5 digits only
+//		System.out.println(b);
+//------------------------------------------------------------	
+//Eg-2
+//		double x= 85.12345678910111;	//correct shows upto 14 digits only.   
+//		System.out.println(x);
+
+//These both datatypes has limited range so we generally use int datatype.
 //----------------------------------------------------------------
 
 //6.LONG-->
-	
-//		long l= 1234567891011121314L;
-//		System.out.println(l);
+
 //in long datatype, we can add max 19 digits.
 //Attaching L or l is mandatory.
+		
+//		long l= 1234567891011121314L;
+//		System.out.println(l);
+
 //---------------------------------------------------------
 
 //7.INTEGER-->
 	
-//		int a=20;
-//		System.out.println(a);
+//		int i=2046;
+//		System.out.println(i);
 //This integer datatype has no any limitations.
 //So int and long are generally used for regular practice
 //-----------------------------------------------------
