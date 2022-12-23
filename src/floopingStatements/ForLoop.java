@@ -36,10 +36,17 @@ public static void main(String[] args)
 //2nd state.- Applying condition.
 //3rd state.- Applying Increment/Decrement.
 	
-//eg.1-WAP to print "Hi" message 10 times.
+	//How to explain the program to interviewer?
+//at 1st I wrote 'for' keyword then in bracket I initialize the variable by assigning a value 1 to it.
+//then I applied a condition as 'i' should be less than OR equal to 10.
+//then I applied an increment operator so that it keeps increasing the msg written in printing statement,
+//until the condition becomes false.
+//After that in curly bracket I wrote a printing statement with a message "Hi".
+//then coming out of loop I simply print a message as "end of program" as a standard practice.
 	
+//eg.1-WAP to print "Hi" message 10 times.
 		//	 1	   2	 3
-	for(int i=1; i<=10; i++)
+	for(int a=1; a<=10; a++)
 	{
 		System.out.println("Hi");
 	}
@@ -48,9 +55,9 @@ public static void main(String[] args)
 
 //eg-2 WAP to print 1 to 10 numbers.
 	
-	for(int i=1; i<=10; i++)
+	for(int b=1; b<=10; b++)
 	{
-		System.out.println(i);
+		System.out.println(b);
 	}
 	System.out.println("End of Program");
 //===========================================================================	
@@ -58,52 +65,59 @@ public static void main(String[] args)
 //eg-3 WAP to print 10 to 1 numbers. OR
 //eg-WAP to print 1 to 10 numbers in reverse order
 	
-	for(int i=10; i>=1; i--)
+	for(int c=10; c>=1; c--)
 	{
-		System.out.println(i);
+		System.out.println(c);
 	}
 	System.out.println("End of Program");	
 //===========================================================================	
 
-//eg-4 WAP to print alternate numbers starting from 1 upto 17.
+//eg-4 WAP to print alternate numbers starting from 1 upto 17 using for loop.
 	
-	for(int i=1; i<=17; i=i+2)
+	for(int d=1; d<=17; d=d+2)
 	{
-		System.out.println(i);
+		System.out.println(d);
 	}
 	System.out.println("End of Program");	
 //===========================================================================	
 
-//eg-5 WAP to print reverse alternate numbers starting from 17 upto 1.	
+//eg-5 WAP to print reverse alternate numbers starting
+//from 17 to 1 using for loop.	
 	
-	for(int i=17; i>=1; i=i-2)
+	for(int e=17; e>=1; e=e-2)
 	{
-		System.out.println(i);
+		System.out.println(e);
 	}
 	System.out.println("End of Program");	
 //===========================================================================		
 	
-//eg-6 WAP to print even numbers upto 20.
+//eg-6 WAP to print even numbers upto 20 using for loop.
 	
-	for(int i=0; i<=20; i=i+2)
+	for(int f=0; f<=20; f=f+2)
 	{
-		System.out.println(i);
+		System.out.println(f);
 	}
 	System.out.println("End of Program");	
 //===========================================================================			
 	
-//eg-7 WAP to print odd numbers upto 19.	
+//eg-7 WAP to print odd numbers upto 19 using for loop.	
 	
-	for(int i=1; i<=19; i=i+2)
+	for(int g=1; g<=19; g=g+2)
 	{
-		System.out.println(i);
+		System.out.println(g);
 	}
 	System.out.println("End of Program");		
 //===========================================================================			
-		
-//eg-8 WAP to display a text "Java Language" 5 times
 	
-//	int n=5;
+//eg-8 WAP to print odd numbers upto 45 in reverse order using for loop.	
+	
+	for(int h=45; h>=1; h=h-2)
+	{
+		System.out.println(h);
+	}
+	System.out.println("End of Program");
+//===========================================================
+//eg-9 WAP to display a text "Java Language" 5 times using for loop.
 	
 	for(int i=1; i<=5; i++)
 	{
@@ -114,31 +128,40 @@ public static void main(String[] args)
 //in such a way that "for loop" should run the text 5 times.
 //===========================================================================
 	
-//eg-9 WAP to display char A to Z using for loop
+//eg-10 WAP to display char A to Z using for loop
 	
-	for(char i='A'; i<='Z'; i++)
+	for(char j='A'; j<='Z'; j++)
 	{
-		System.out.println(i);
+		System.out.println(j);
 	}
 	System.out.println("End of Program");	
-//===========================================================================				
+//===========================================================================
+	
+//eg-11 WAP to print all English alphabets in reverse order.	
+	
+	for(char k='Z'; k>='A'; k--)
+	{
+		System.out.println(k);
+	}
+	System.out.println("End of Program");
+//===========================================================================
 
 //if we use 'for loop' to 'double' & 'float' datatype, it will only show
 //whole numbers i.e. 25 & 12.
 //It will not show decimal numbers after executing the program.
 	
-	for(double i=1; i<=25.1234567890; i++)
-	{
-		System.out.println(i);
-	}	
-	System.out.println("End of Program");	
-//--------------------------------------------------------------	
-	
-	for(float i=1; i<=12.12345678910; i++)
-	{
-		System.out.println(i);
-	}
-	System.out.println("End of Program");
+//	for(double i=1; i<=25.1234567890; i++)
+//	{
+//		System.out.println(i);
+//	}	
+//	System.out.println("End of Program");	
+////--------------------------------------------------------------	
+//	
+//	for(float i=1; i<=12.12345678910; i++)
+//	{
+//		System.out.println(i);
+//	}
+//	System.out.println("End of Program");
 //===========================================================================				
 }
 }
