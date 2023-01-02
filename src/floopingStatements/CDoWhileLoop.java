@@ -1,6 +1,6 @@
 package floopingStatements;
 
-public class DoWhileLoop 
+public class CDoWhileLoop 
 {
 public static void main(String[] args) 
 {

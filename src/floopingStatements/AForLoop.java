@@ -1,6 +1,6 @@
 package floopingStatements;
 
-public class ForLoop 
+public class AForLoop 
 {
 public static void main(String[] args)
 {
@@ -150,18 +150,18 @@ public static void main(String[] args)
 //whole numbers i.e. 25 & 12.
 //It will not show decimal numbers after executing the program.
 	
-//	for(double i=1; i<=25.1234567890; i++)
-//	{
-//		System.out.println(i);
-//	}	
-//	System.out.println("End of Program");	
+	for(double i=1; i<=25.1234567890; i++)
+	{
+		System.out.println(i);
+	}	
+	System.out.println("End of Program");	
 ////--------------------------------------------------------------	
-//	
-//	for(float i=1; i<=12.12345678910; i++)
-//	{
-//		System.out.println(i);
-//	}
-//	System.out.println("End of Program");
+	
+	for(float i=1; i<=12.12345678910; i++)
+	{
+		System.out.println(i);
+	}
+	System.out.println("End of Program");
 //===========================================================================				
 }
 }

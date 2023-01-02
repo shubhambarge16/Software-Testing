@@ -1,6 +1,6 @@
 package floopingStatements;
 
-public class Combo 
+public class DDifferencesBetnForWhileDoWhileLoops 
 {
 public static void main(String [] args)
 {
@@ -8,37 +8,83 @@ public static void main(String [] args)
 	
 //Difference betn all loops-->
 	
-//1.  "FOR"	-->													
+//1.  "FOR"	-->	Syntax-->
 //(Initialization, condition, increment/ decrement) 
 //	{
-//		Printing statement
+//		code print
 //	}
 //	Program end.
-//All in one bracket & one line.	
-//=========================================================	
 	
-//2. "WHILE" -->
+//	here, both starting & ending conditions are known. (i.e. starting-i=1;
+//	ending- i<=5;)
+//All in one bracket & one line.	
+//-----------------------------------------------------------------------------	
+	
+//2. "WHILE" --> Syntax-->
 //
-// int i=1; <-- 1st Initialization then,
+//int i=1; <-Initialization is not part of syntax of while loop, it is not compulsory.
+//Actual Syntax starts from while keyword & ends at-> }
+	
 // while(condition) then,
 // {
-//	Printing statement  then,
+//	code print  then,
 //  increment/ decrement
 //	}
 //	Program end.
 	
-//============================================================	
-//3. "DO-WHILE" -->
+//1.Use this only when end condition is known.
+//2.here, 1st condition check then code print.
+//3.Early condition Checking/ Pre-checking is done here.
+//4.If we put any larger value out of the loop in initial condition,
+//then it becomes false then nothing will get printed on console.
+//bcoz here at 1st we check the condition & other things come after.
+//------------------------------------------------------------------	
+//3. "DO-WHILE" --> Syntax-->
 	
 // int i=1; <-- 1st Initialization then
 //  'do' keyword then,
 // {
-//	Printing statement then,
+//	code print then,
 //	increment/ decrement
 // }
 // while (condition); <--semicolon must added here.	
 // Program end.
+	
+//1.Use this only when end condition is known.
+//2.here, 1st code print then condition check.
+//3.Late condition Checking/ Post-checking is done here.
+//4.If we put any larger value out of the loop in initial condition,
+//then it prints the value only one time.
+//bcoz here at 1st we print the code then we go for condition checking.
+//------------------------------------------------------------------------------
+//for eg. to understand 4th difference-
+	//WHILE loop-->
+//here, if Initially we put value of x greater than max value in condition i.e. 5;
+//then nothing will print on console. bcoz at 1st we check condition then print code.
+	
+		int x =11;
 
+		while(x<=5)
+		{
+		System.out.println("Hi");
+		x++;
+		}
+		System.out.println("End of Program");
+		
+	//but in DO-WHILE case->
+//here, if Initially we put value of x greater than max value in condition i.e. 5;
+//then code get printed one time only. bcoz at 1st we print code then condition check. by syntax.
+		
+		int z=23;
+
+		do
+		{
+		System.out.println("Hi");
+		z++;
+		}
+		while(z<=5);
+		System.out.println("End of Program");
+		
 //================================================================	
 	
 //eg.-1 WAP to print 'Hi' msg 5 times using all loops.
@@ -110,9 +156,9 @@ public static void main(String [] args)
 	
 		//1. for loop-->
 	
-	for(int x=10; x>=1; x--)
+	for(int y=10; y>=1; y--)
 	{
-		System.out.println(x);
+		System.out.println(y);
 	}
 	System.out.println("End of Program");
 //----------------------------------------------------------------	

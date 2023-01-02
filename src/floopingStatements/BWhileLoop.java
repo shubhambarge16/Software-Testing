@@ -1,6 +1,6 @@
 package floopingStatements;
 
-public class WhileLoop 
+public class BWhileLoop 
 {
 public static void main(String[] args) 
 {
