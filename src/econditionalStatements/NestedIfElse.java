@@ -17,7 +17,7 @@ public static void main(String[] args)
 //inner "if-else" statement will not execute,
 //directly outer "else" statement will execute. & program will end.
 	
-//we can execute inner "if-else statement",
+//Note- we can execute inner "if-else statement",
 //only if outer "if" condition becomes "TRUE".
 //===================================================================================
 	

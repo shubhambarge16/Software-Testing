@@ -1,4 +1,4 @@
-package starPrograms;
+package gstarPrograms;
 
 public class StarPrograms2 
 {

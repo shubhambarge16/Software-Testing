@@ -1,4 +1,4 @@
-package starPrograms;
+package gstarPrograms;
 
 public class StarPrograms1 
 {
@@ -115,23 +115,23 @@ public static void main(String [] args)
 //	* * 
 //	* 
 	
-	for(int i=1; i<=4; i++)
-	{
-		for(int j=1; j<=i; j++)
-		{
-			System.out.print("* ");
-		}
-		System.out.println();
-	}
-	for(int i=5; i>=1; i--)
-	{
-		for(int j=1; j<=i; j++)
-		{
-			System.out.print("* ");
-		}
-		System.out.println();
-	}
-	System.out.println("End of Program");
+//	for(int i=1; i<=4; i++)
+//	{
+//		for(int j=1; j<=i; j++)
+//		{
+//			System.out.print("* ");
+//		}
+//		System.out.println();
+//	}
+//	for(int i=5; i>=1; i--)
+//	{
+//		for(int j=1; j<=i; j++)
+//		{
+//			System.out.print("* ");
+//		}
+//		System.out.println();
+//	}
+//	System.out.println("End of Program");
 	
 // by combining programs of Pattern 2&3, we got 2 separate lines of 5 star.
 // So to avoid that,
@@ -140,6 +140,10 @@ public static void main(String [] args)
 // 2) We should decrease outer loop of 2nd "for loop" i.e.(Initia.)--> i=4; (Line no-126)
 // I will prefer 1st method.	
 
-//=====================================================================		
+//=====================================================================	
 }
 }
+
+
+
+

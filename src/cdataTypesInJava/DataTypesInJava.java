@@ -144,11 +144,8 @@ public static void main(String[] args)
 //		}
 //This is also valid. but condition is- info. inside { } this
 //bracket should be of same dataType.
-//=================================================================
-	 
-//THIS IS ALL ABOUT DATA TYPES IN JAVA.	 
-	 
-	 
-	
+//=================================================================	
+		
+//THIS IS ALL ABOUT DATA TYPES IN JAVA.	
 }
 }
