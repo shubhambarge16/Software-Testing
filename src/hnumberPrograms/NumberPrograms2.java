@@ -65,7 +65,10 @@ public static void main(String[] args)
 	
 //===================================================================================	
 	
-//Q-5- WAP to swap the numbers.	
+//Q-5- WAP to swap the numbers.
+//i)without using 3rd Variable.
+//(See explanation in photos.)
+	
 //eg-1-:
 	
 //	int a=200;
@@ -93,8 +96,25 @@ public static void main(String[] args)
 //	System.out.println("value of b - "+b);
 	
 //===================================================================	  
+
+//Q-6- WAP to swap the numbers.
+//ii)with using 3rd Variable.
+//(See explanation in photos.)
 	
-//Q-6- WAP to print Fibonacci Series.
+//	int a=10;
+//	int b=20;
+//	int temp;
+//	
+//	temp=a;
+//	a=b;
+//	b=temp;
+//	
+//	System.out.println("value of a - "+a);
+//	System.out.println("value of b - "+b);
+	
+//===================================================
+	
+//Q-7- WAP to print Fibonacci Series.
 	
 //definition- It is the sum of previous two numbers.
 //0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89.....
@@ -128,7 +148,7 @@ public static void main(String[] args)
 	
 //===================================================================================================================================
 	
-//Q-7- WAP to check whether a number is Prime number or not.
+//Q-8- WAP to check whether a number is Prime number or not.
 		
 //Definition of Prime no.-
 //A Prime no. is that no. which can be divided by only two nos.-
@@ -161,10 +181,11 @@ public static void main(String[] args)
 //meaning of "for loop" is if the nos. 2,3,4,5,6 are completely divisible & Remainder comes 0 then
 //it is not a prime no. it will show as a temp no. to print in "if-else" loop.
 //(for best explanation, check in photos.)
+	
 //===================================================================================================================================
 	
-//Q-8-WAP to Display Prime Numbers betn 1 to 100.
-//see its Explanation in Notebook.	
+//Q-9-WAP to Display Prime Numbers betn 1 to 100.
+//(See its Explanation in Notebook.)	
 	
 //	for(int number=1; number<=100; number++)
 //	{
@@ -183,9 +204,9 @@ public static void main(String[] args)
 //	}
 //===================================================================================================================================
 
-//(PROGRAMS WHICH ARE DIFFICULT & NOT UNDERSTOOD BUT LEARN THEM LETTER BY "SMART PROGRAMMING YOU TUBE CHANNEL",
-//IF ASKED IN INTERVIEW)
-	
+//(PROGRAMS WHICH ARE DIFFICULT & NOT UNDERSTOOD BUT LEARN THEM LETTER BY 
+//"SMART PROGRAMMING YOU TUBE CHANNEL",IF ASKED IN INTERVIEW)
+
 //Q-7-WAP to print an Armstrong Number.(Not Understood)
 	
 //Definition- eg.1- 123- This is 3 digits no. So now we've to take cube of every single digit
@@ -234,7 +255,7 @@ public static void main(String[] args)
 //			System.out.println(number+" -is not Armstrong number");
 //		}
 //===================================================================================	
-//Q-5-WAP to print a reverse number of given number.(Not Understood)
+//Q-WAP to print a reverse number of given number.(Not Understood)
 	
 //	int number= 5432;
 //	int reverse=0;
@@ -248,13 +269,13 @@ public static void main(String[] args)
 //	}
 //	System.out.println("reverse is- "+reverse);
 //===================================================================================
-//Q-6-WAP to find GCD/GCF/HCF (Not Understood)
+//Q-WAP to find GCD/GCF/HCF (Not Understood)
 //(Greatest Common Divisible/Greatest Common Factor/Highest Common Factor) of two numbers.
 //(it means, asa konta highest number ahe, jyane ya donhi numbers la bhaag jato.)
 //3,4-> 1	
 //3,6-> 3
 //25,20-> 5
 //===================================================================================	
-//Q-2WAP to find LCM of 2 numbers(Least common multiplier) (Not Understood)
+//Q-WAP to find LCM of 2 numbers(Least common multiplier) (Not Understood)
 }
 }
