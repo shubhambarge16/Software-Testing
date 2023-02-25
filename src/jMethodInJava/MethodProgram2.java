@@ -22,7 +22,7 @@ public class MethodProgram2
 
 //Now above method calling in "Main method"-
 //Method la call karaych mhanje above method body madhla code
-//below main method body madhe anaycha i.e. nothing but "Method calling".
+//below main method body madhe anaycha i.e. "Method calling".
 	
 	public static void main(String[] args) 
 	{
