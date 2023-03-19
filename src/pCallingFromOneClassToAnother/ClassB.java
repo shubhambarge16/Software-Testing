@@ -1,8 +1,8 @@
-package packACallingFromClassAToClassB;
+package pCallingFromOneClassToAnother;
 
 public class ClassB 
 {
-//Calling all from ClassA under same package.
+//Calling all from ClassA to ClassB under same package.
 	
 	public static void main(String[] args) 
 	{
@@ -12,7 +12,7 @@ public class ClassB
 //2)non-static var Calling-
 
 //Note-Always create the object of that class from which we 
-//need to call those non static members.
+//are calling those non static members.
 //->ithe ClassB madhe ClassA madhun var call karnar ahe so ithe 
 //Object suddha ClassA chach create karaycha ani call karaych.
 

@@ -3,8 +3,8 @@ package nOverloading;
 public class MethodOverloading 
 {
 //Method Overloading-
-//In class, declaring multiple methods with same method name & different arguments
-//is called as "Method Overloading".
+//In class, declaring multiple methods with same method name
+//with different arguments passed in it is called as "Method Overloading".
 	
 //		ex-1
 		public static void method1()

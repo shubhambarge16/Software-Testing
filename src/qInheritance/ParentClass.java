@@ -1,15 +1,16 @@
-package qOOPsConcept;
+package qInheritance;
 
 public class ParentClass 
 {
 //we are inheriting elements of this parent class to child class.
 //using inheritance concept
-	
-	int a= 100;
-	
+				
+	public static int a= 100;
+	int b= 200;
+			
 	public void method1()
 	{
-		System.out.println("this is method1");
+		System.out.println("this is method 1");
 	}
 	
 }

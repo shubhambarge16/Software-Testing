@@ -1,6 +1,6 @@
 package packC;
 
-import packACallingFromClassAToClassB.ClassA;
+import pCallingFromOneClassToAnother.ClassA;
 
 public class ShubhamClass 
 {

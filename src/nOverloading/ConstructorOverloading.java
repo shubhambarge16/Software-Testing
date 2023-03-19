@@ -4,7 +4,7 @@ public class ConstructorOverloading
 {
 //It is same as "Method Overloading"
 //In class, declaring multiple Constructors with same Constructor name
-//& different arguments is called as "Constructor Overloading".
+//with different arguments passed in it is called as "Constructor Overloading".
 //Note-we can store multiple values in very less variables (just 2 variables a&b)
 //This is benefit of method & Constructor Overloading.
 	
