@@ -32,6 +32,5 @@ public class StaticNonStaticDifference
 //After that memory will be erased so that,any other variable can take their position.
 //by this way, we can store max. amount of memory using non- static variables.
 	
-//For extra difference of static & non static variables. refer notes & lecture of (22.8.22).	
-	
+//For extra difference of static & non static variables. refer notes & lecture of (22.8.22).
 }	

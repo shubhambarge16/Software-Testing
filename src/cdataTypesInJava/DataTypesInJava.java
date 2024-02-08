@@ -19,7 +19,7 @@ public static void main(String[] args)
 //		boolean x = 'A';   //character not possible
 //		boolean x = TRUE;  //Capital letters not possible
 //	
-//bcoz java is case sensitive language,
+//java is case sensitive language,
 //So no capital letters allowed.
 	
 //		boolean x = true;
@@ -33,15 +33,15 @@ public static void main(String[] args)
 //----------------------------------------------------	
 	
 //2.CHAR -->
-		char a= 'A';
-		System.out.println(a);	//ans-A
+//		char a= 'A';
+//		System.out.println(a);	//ans-A
 		
 //in char datatype, we can write
 //only single letters in single quotation.
 	
 	//A-Z
 	//a-z
-	//laptop special chars !@#$%^&*()_+
+	//laptop special chars !@#$%^&*()_
 	// 0-9 numbers
 //All are considered in char datatype.
 //----------------------------------------------------
@@ -78,7 +78,8 @@ public static void main(String[] args)
 		
 //Difference betn 'float' & 'double'-->
 //1.float has size of 32 bits so it has limited range of inserting values.
-//2.double has size of 64 bits so it has wide range of inserting values as compared to float.
+//2.double has size of 64 bits so it has wide range of inserting values
+//as compared to float.
 		
 //Eg-1		
 //		float b= 45.12345f;		//correct shows upto 5 digits only
@@ -94,7 +95,7 @@ public static void main(String[] args)
 //6.LONG-->
 
 //in long datatype, we can add max 19 digits.
-//Attaching L or l is mandatory.
+//L or l is mandatory to Attach with number.
 		
 //		long l= 1234567891011121314L;
 //		System.out.println(l);
@@ -107,15 +108,15 @@ public static void main(String[] args)
 //		System.out.println(i);
 //This integer datatype has no any limitations.
 //So int and long are generally used for regular practice
-//-----------------------------------------------------
+//==========================================================
 	
 //NON-PRIMITIVE-->
 //1.STRING-->
 	
 //		String emailid = "shubham.barge16@gmail.com";
 //		System.out.println(emailid);
-//We can write all the characters of keyboard
-//in String Datatype.but double inverted comma->" "is compulsory.
+//In String Datatype, We can write all characters of keyboard
+//but double inverted comma->" "is compulsory.
 //--------------------------------------------------------	
 	
 //2. Array-->
@@ -133,17 +134,17 @@ public static void main(String[] args)
 //of same datatype.
 //eg. in above eg, we can store multiple numbers in array
 //but they all should be in "int" Datatype.
-	 //likewise
-	 //eg 2->
+//likewise eg 2->
 		
 //		char b[]= {'a', 'A', '@', '8', '4', '%', 'q', 'W', '*', '+'};
 //		//index->   0    1    2    3	 4	  5    6	7    8    9
 //		for(char i=0; i<=9; i++)
 //		{
-//			System.out.println(b(i));
+//			System.out.println(b[i]);
 //		}
+		
 //This is also valid. but condition is- info. inside { } this
-//bracket should be of same dataType.
+//bracket should be of same dataType. here above, datatype is char.
 //=================================================================	
 		
 //THIS IS ALL ABOUT DATA TYPES IN JAVA.	

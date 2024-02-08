@@ -105,6 +105,5 @@ public static void main(String[] args)
 	
 //Note-for extra star programs other than pavan sir's assignment,
 //refer smart programming you tube channel by deepak
-
 }
 }

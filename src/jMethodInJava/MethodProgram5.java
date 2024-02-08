@@ -8,11 +8,11 @@ public class MethodProgram5
 	
 //In line no 22, jya variable chi value apan return karto tich value
 //main method madhe execute hote.
-//jr "return" keyword use karun variable print kela (a or b or c)tarach 
+//jr "return" keyword use karun variable print kela (a/b/c) tarach 
 //main method madhe ti return chi value console vr print hote.
 	
 	//method body-
-//	method ex-1
+//method ex-1
 	public static int Addition()
 	{
 		int a=10;
@@ -22,7 +22,7 @@ public class MethodProgram5
 		return c;
 	}
 	
-//	method ex-2
+//method ex-2
 	
 	public static int Multiplication()
 	{
@@ -37,7 +37,7 @@ public class MethodProgram5
 	//main method body-
 	public static void main(String[] args) 
 	{
-		System.out.println(Addition()); //1s call
+		System.out.println(Addition()); //1st call
 		int f= Multiplication();	    //2nd call
 		System.out.println(f);
 		System.out.println(f+100);
@@ -46,7 +46,9 @@ public class MethodProgram5
 //ani method body madhe return c che printing statement lihilay mhanun ekda 25 print honar
 
 //datatype apan void sodun dusra kontahi ghetla tr main method madhe execute kartana
-//ti value ahe ashi print karu shakto, kontyahi variable madhe store karu shakto(ithe int f madhe store keliye tashi)
+//ti value ahe ashi print karu shakto, kontyahi variable madhe store karu shakto
+//(ithe int f madhe store keliye tashi)
 //ani tya value vr addition, substraction etc. kontehi operation perform karu shakto.
-//mhanjech void sodun kontahi datatype ghetla tr ti value aplyala return hote mhanjech kuthehi vaprayla milte.
+//mhanjech void sodun kontahi datatype ghetla tr ti value aplyala return hote mhanjech
+//kuthehi vaprayla milte.
 }

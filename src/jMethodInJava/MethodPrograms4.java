@@ -35,10 +35,4 @@ public class MethodPrograms4
 //1. difference is, in static we use "static" keyword & in non-static we
 //Don't use static keyword.
 //2.Only difference is the process of "Method calling" 
-	
-	
-	
-	
-	
-	
 }

@@ -28,5 +28,4 @@ public class ConstructorTypes4
 //than this type of Constructor is called as "User defined Constructor".
 //In this type, user can enter any argument with any data type in Constructor.
 //It is totally depends on user. So it is called as User defined Constructor
-	
 }

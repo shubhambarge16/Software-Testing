@@ -21,7 +21,7 @@ public static void main(String[] args)
 //		System.out.println(a[3]);
 //		System.out.println(a[4]);
 //		System.out.println(a[5]);
-//
+
 //This code becomes too lengthy so, To reduce lengthiness of above array, we use for loop.
 //& in for loop we've to put values of indices i.e. Initializing from 0.
 	

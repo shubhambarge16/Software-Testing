@@ -15,5 +15,4 @@ public class Class3
 	{
 		System.out.println("this is method 2");
 	}
-	
 }

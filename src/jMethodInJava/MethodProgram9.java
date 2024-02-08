@@ -2,7 +2,7 @@ package jMethodInJava;
 
 public class MethodProgram9 
 {
-//	ex-1-Normal Method-
+//ex-1-Normal Method-
 	public static void AdditionMethod1(int x, int y)
 	{
 		int a=15;
@@ -15,7 +15,7 @@ public class MethodProgram9
 //but the problem is, we can'nt change these values(15,20).
 //If we call above method in "main method", It will show 35 all the time.
 	
-//	ex-2-Twisted method-
+//ex-2-Twisted method-
 	public static void AdditionMethod2(int x, int y)
 	{
 		int a=x;
@@ -44,4 +44,3 @@ public class MethodProgram9
 //at the time of execution in main method, then I can use this 2nd type of method.
 	}
 }
-

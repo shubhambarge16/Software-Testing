@@ -14,6 +14,5 @@ public class Class4 extends Class3
 		Class3.method1();
 		
 		yObject.method2();
-	
 	}	
 }

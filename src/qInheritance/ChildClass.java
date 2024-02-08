@@ -17,5 +17,4 @@ public class ChildClass extends ParentClass
 			
 		x.method1();	
 	}
-
 }

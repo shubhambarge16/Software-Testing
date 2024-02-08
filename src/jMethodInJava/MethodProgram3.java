@@ -21,3 +21,5 @@ public class MethodProgram3
 		CodePrint();
 	}	
 }
+//here we called the method 4 times in main method, so msg in method body
+//will show 4 times on console.

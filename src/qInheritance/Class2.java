@@ -13,8 +13,6 @@ public class Class2
 		Class1 x = new Class1();
 		System.out.println(x.b);
 		//3.
-		x.method1();
-			
-	}
-		
+		x.method1();		
+	}	
 }

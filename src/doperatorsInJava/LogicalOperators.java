@@ -4,10 +4,10 @@ public class LogicalOperators
 {
 public static void main(String[] args) 
 {
-	//It has 3 main types-
-	//1.AND
-	//2.OR
-	//3.NOT
+//It has 3 main types-
+//1.AND
+//2.OR
+//3.NOT
 	
 //for eg.- 
 	
@@ -47,8 +47,9 @@ public static void main(String[] args)
 	
 	System.out.println(c||d);   //F
 	
-//Note-:In "OR" Operator, If both values from given values are false,
-//only & only then result will be false.
+//Note-:In "OR" Operator, out of 2 values, if anyone value is true,
+//then result is true
+//If both values from given values are false, only & only then result will be false.
 //otherwise all other combinations gives true result.
 	
 //All combinations of "OR" Operator-
@@ -57,21 +58,20 @@ public static void main(String[] args)
 //2. true+false = true
 //3. false+true = true
 //4. false+false = false
-//-----------------------------------------------------------------
+//---------------------------------------------------------------
 	
 //3. NOT Operator-->
 	
 //Note-: To make anyones result reverse, then
 //in that case, NOT Operator is used.
 	
-	System.out.println(!a);	//False
+	System.out.println(!a);	//Ans- False
 
-	System.out.println(!b);	//false
+	System.out.println(!b);	//Ans- false
 	
-	System.out.println(!c);	//true
+	System.out.println(!c);	//Ans- true
 	
-	System.out.println(!d);	//true
+	System.out.println(!d);	//Ans- true
 //===================================================================
-
 }
 }

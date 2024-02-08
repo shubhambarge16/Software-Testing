@@ -12,6 +12,6 @@ public static void main(String[] args)
 					
 	WebDriver driver = new FirefoxDriver();
 					
-	driver.get("https://www.facebook.com");
+	driver.get("https://www.google.com");
 }
 }

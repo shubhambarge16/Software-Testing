@@ -12,6 +12,5 @@ public static void main(String[] args)
 	
 //-->Here, "100" value of 'int' type is assigned
 //to "i" variable.
-	
 }
 }
