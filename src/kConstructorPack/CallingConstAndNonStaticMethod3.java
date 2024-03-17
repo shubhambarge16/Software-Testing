@@ -42,10 +42,9 @@ public class CallingConstAndNonStaticMethod3
 //III)To call a method with the help of Object, formula is-
 						
 //		Objectname.Methodname();
-//Means y.Method1(); in line no 48.		
+//Means y.Method1(); in line no 48.	below.	
 			
 			CallingConstAndNonStaticMethod3 y = new CallingConstAndNonStaticMethod3();
 			y.Method1();
-
 		}
 }

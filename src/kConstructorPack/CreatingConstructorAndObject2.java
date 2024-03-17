@@ -8,8 +8,7 @@ public class CreatingConstructorAndObject2
 	
 //Note-
 //1)Constructor must always write in class body not in main method body.
-//It is almost same as writing a method.
-
+//It is almost same as writing a "method".
 //2)"Constructor Name" should be always same as "class name".
 
 //creating a "CONSTRUCTOR"-

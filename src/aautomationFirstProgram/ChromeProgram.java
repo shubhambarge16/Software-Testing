@@ -1,4 +1,4 @@
-package aautomationProgram;
+package aautomationFirstProgram;
 
 import org.openqa.selenium.Point;
 import org.openqa.selenium.WebDriver;
@@ -59,7 +59,10 @@ public class ChromeProgram
 //		Point p = new Point(300,200);
 //		driver.manage().window().setPosition(p);
 //14. minimizing the Browser-		
-		driver.manage().window().minimize();
+//		driver.manage().window().minimize();
+//		Thread.sleep(2000);
+		
+		driver.close();
 		System.out.println("end of program");
 	}	
 }

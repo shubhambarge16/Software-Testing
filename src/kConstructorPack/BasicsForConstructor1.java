@@ -24,6 +24,6 @@ public class BasicsForConstructor1
 //2.This step is called "Initialize a variable"
 		
 		System.out.println(b);
-//then Simply just printed it.
+//then print it.
 	}	
 }
