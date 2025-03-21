@@ -4,6 +4,7 @@ public class IfElse
 {
 public static void main(String[] args) 
 {
+	
 //Q-1 Check whether student is passed or failed.
 //Ans->Passed.
 //		int studentMarks = 95;
@@ -137,6 +138,7 @@ public static void main(String[] args)
 //		System.out.println("bye");
 //	}
 //	System.out.println("end of program");
-//======================================================	
+//======================================================
+	
 }
 }

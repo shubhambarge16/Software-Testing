@@ -15,13 +15,13 @@ public class StdScenarioWritingOfAutomationProgram {
 		"C:\\Users\\hp\\Downloads\\chromedriver-win32\\chromedriver-win32\\chromedriver.exe");
 				
 		WebDriver driver = new ChromeDriver();
-		System.out.println("Browser is opened ");
+		System.out.println("Browser is opened");
 						
 		driver.manage().window().maximize();
-		System.out.println("Browser is maximized ");
+		System.out.println("Browser is maximized");
 						
 		driver.get("https://www.saucedemo.com/");
-		System.out.println("Url is opened ");
+		System.out.println("Url is opened");
 						
 //username
 		WebElement username= driver.findElement(By.xpath("//input[@id='user-name']"));
@@ -54,9 +54,11 @@ public class StdScenarioWritingOfAutomationProgram {
 		else
 		{
 			System.out.println("Login Test is failed");
-		}			
+		}		
+		
 		driver.close();
 		System.out.println("browser is closed");
 		System.out.println("end of program");
+		
 	}
 }

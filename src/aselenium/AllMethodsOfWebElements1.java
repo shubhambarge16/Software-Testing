@@ -18,7 +18,7 @@ public class AllMethodsOfWebElements1
 		
 	driver.manage().window().maximize();
 	System.out.println("Browser is maximized ");
-		
+	
 	driver.get("https://en-gb.facebook.com/");
 	System.out.println("Url is opened");
 		

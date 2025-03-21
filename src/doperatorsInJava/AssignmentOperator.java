@@ -4,6 +4,7 @@ public class AssignmentOperator
 {
 public static void main(String[] args) 
 {
+	
 //for eg.-
 	
 	int i =100;
@@ -12,5 +13,6 @@ public static void main(String[] args)
 	
 //-->Here, "100" value of 'int' type is assigned
 //to "i" variable.
+	
 }
 }

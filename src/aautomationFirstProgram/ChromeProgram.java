@@ -1,6 +1,5 @@
 package aautomationFirstProgram;
 
-import org.openqa.selenium.Point;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -13,7 +12,7 @@ public class ChromeProgram
 		
 		WebDriver driver = new ChromeDriver();
 //1. maximize browser-
-//		driver.manage().window().maximize();
+		driver.manage().window().maximize();
 //-------------------------------------------------------------------------
 //2. get method opens a URL-
 		driver.get("https://www.facebook.com");				//facebook
@@ -62,7 +61,7 @@ public class ChromeProgram
 //		driver.manage().window().minimize();
 //		Thread.sleep(2000);
 		
-		driver.close();
+//		driver.close();
 		System.out.println("end of program");
 	}	
 }
