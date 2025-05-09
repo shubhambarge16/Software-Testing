@@ -12,7 +12,10 @@ public class MethodProgram3
 		System.out.println("Bye");
 	}
 	
-//Main method body
+//for eg., we called method 4 times in main method, so msg in method body
+//will be showing 4 times on console.
+	
+//Main method body-
 	public static void main(String[] args)
 	{
 		CodePrint();
@@ -21,5 +24,3 @@ public class MethodProgram3
 		CodePrint();
 	}	
 }
-//here we called the method 4 times in main method, so msg in method body
-//will show 4 times on console.

@@ -9,6 +9,7 @@ public class CollectionConcept3
 	{
 //we can use same 5 methods of ArrayList here in LinkedList class & Vector class.
 		LinkedList x = new LinkedList();
+		
 //add ele --> add 
 //remove ele -> remove
 //size count > size

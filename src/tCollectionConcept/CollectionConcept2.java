@@ -11,10 +11,10 @@ public class CollectionConcept2
 		
 //1) add method-
 		
-		a.add("Shubham");  //0
-		a.add("Rahul");  //1
-		a.add("Kiran");  //2
-		a.add("Pranav");  //3
+		a.add("Shubham");  	//0
+		a.add("Rahul");  	//1
+		a.add("Kiran");  	//2
+		a.add("Pranav");  	//3
 		
 //print all data
 		System.out.println(a);
@@ -31,6 +31,6 @@ public class CollectionConcept2
 		System.out.println(a.size());
 				
 //5) if we want to remove element-
-				System.out.println(a.remove(2));
+		System.out.println(a.remove(2));
 	}
 }

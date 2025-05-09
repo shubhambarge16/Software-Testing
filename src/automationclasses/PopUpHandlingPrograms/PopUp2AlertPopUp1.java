@@ -18,7 +18,7 @@ public class PopUp2AlertPopUp1
 //ALERT-1
 		
 		System.setProperty("webdriver.chrome.driver",
-		"C:\\Users\\hp\\Downloads\\chromedriver-win32\\chromedriver-win32\\chromedriver.exe");
+		"C:\\Users\\hp\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
 
 		WebDriver driver = new ChromeDriver();
 		System.out.println("Browser is opened ");
@@ -29,7 +29,7 @@ public class PopUp2AlertPopUp1
 		driver.get("https://demoqa.com/alerts");
 		System.out.println("Url is opened");
 		
-		
+//=========================================================================================		
 //1st we've to find xpath of clickme1 button.
 		WebElement clickme1 = driver.findElement(By.xpath("//button[@id='alertButton']"));
 		clickme1.click();
@@ -41,7 +41,8 @@ public class PopUp2AlertPopUp1
 		Alert alt = driver.switchTo().alert();
 		alt.accept();
 		System.out.println("Alert1 is accepted");
-
+//==================================================================================================
+		
 //ALERT-2
 //we find xpath of clickme2 button.
 //it will do click action 5 seconds after clicking.
@@ -56,6 +57,7 @@ public class PopUp2AlertPopUp1
 //& then alert will be acceped & handeled.
 		Alert alert = driver.switchTo().alert();
 		alert.accept();
+		System.out.println("Alert2 is accepted");
 		Thread.sleep(3000);
 		
 		System.out.println("end of program");	

@@ -14,7 +14,7 @@ public class PopUp2AlertPopup2
 //1st we find xpath of confirm box click button.
 		
 		System.setProperty("webdriver.chrome.driver",
-		"C:\\Users\\hp\\Downloads\\chromedriver-win32\\chromedriver-win32\\chromedriver.exe");
+		"C:\\Users\\hp\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
 
 		WebDriver driver = new ChromeDriver();
 		System.out.println("Browser is opened ");

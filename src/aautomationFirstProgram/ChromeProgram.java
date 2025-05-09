@@ -5,10 +5,10 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class ChromeProgram 
 {
-	public static void main(String[] args) throws InterruptedException 
+	public static void main(String[] args) throws InterruptedException
 	{
 		System.setProperty("webdriver.chrome.driver",
-		"C:\\Users\\hp\\Downloads\\chromedriver-win32\\chromedriver-win32\\chromedriver.exe");
+		"C:\\Users\\hp\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
 		
 		WebDriver driver = new ChromeDriver();
 //1. maximize browser-

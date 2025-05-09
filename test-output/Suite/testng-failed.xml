@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="aseleniumPOMClasses.TC03_VerifyFbLoginClass">
+        <methods>
+          <include name="TC03_VerifyFbLogin"/>
+          <include name="TearDown"/>
+          <include name="SetUp"/>
+        </methods>
+      </class> <!-- aseleniumPOMClasses.TC03_VerifyFbLoginClass -->
+      <class name="aseleniumPOMClasses.TC02_VerifyLogOutFunctionality">
+        <methods>
+          <include name="setUp"/>
+          <include name="TearDown"/>
+          <include name="TC02_VerifyLogOutFunctionality"/>
+        </methods>
+      </class> <!-- aseleniumPOMClasses.TC02_VerifyLogOutFunctionality -->
+      <class name="aseleniumPOMClasses.TC01_VerifyLoginFunctionality">
+        <methods>
+          <include name="setUp"/>
+          <include name="TC01_VerifyLoginFunctionality"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- aseleniumPOMClasses.TC01_VerifyLoginFunctionality -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -12,7 +12,7 @@ public class Popup1HiddenDivisionPopUp
 	public static void main(String[] args) throws InterruptedException 
 	{
 		System.setProperty("webdriver.chrome.driver",
-		"C:\\Users\\hp\\Downloads\\chromedriver-win32\\chromedriver-win32\\chromedriver.exe");
+		"C:\\Users\\hp\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
 						
 		WebDriver driver = new ChromeDriver();
 		System.out.println("Browser is opened");

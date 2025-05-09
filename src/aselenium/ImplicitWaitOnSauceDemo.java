@@ -13,7 +13,7 @@ public class ImplicitWaitOnSauceDemo
 	public static void main(String[] args) throws InterruptedException 
 	{
 		System.setProperty("webdriver.chrome.driver",
-		"C:\\Users\\hp\\Downloads\\chromedriver-win32\\chromedriver-win32\\chromedriver.exe");
+		"C:\\Users\\hp\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
 
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
@@ -27,8 +27,8 @@ public class ImplicitWaitOnSauceDemo
 		
 		driver.get("https://www.saucedemo.com/v1/");
 					
-		WebElement username = driver.findElement(By.id("-user-name"));
-		username.sendKeys("problem-user");
+		WebElement username = driver.findElement(By.id("//input[@id='user-name']"));
+		username.sendKeys("standard_user");
 		System.out.println("username is entered");
 		
 		WebElement password = driver.findElement(By.id("password"));
