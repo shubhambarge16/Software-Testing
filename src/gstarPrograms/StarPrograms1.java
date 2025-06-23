@@ -8,11 +8,11 @@ public static void main(String [] args)
 //Different type of Nested for loop-->
 	
 //Print this Patter but by reducing the Lengthiness of code & using for loop.
-//		System.out.println("PPPPP");
-//		System.out.println("PPPPP");
-//		System.out.println("PPPPP");
-//		System.out.println("PPPPP");
-//		System.out.println("PPPPP");
+		System.out.println("PPPPP");
+		System.out.println("PPPPP");
+		System.out.println("PPPPP");
+		System.out.println("PPPPP");
+		System.out.println("PPPPP");
 
 //Standard way to write program-->
 			
